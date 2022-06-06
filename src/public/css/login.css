@@ -1,0 +1,47 @@
+.form-login {
+  padding-top: 35px;
+  padding-bottom: 95px;
+  margin-right: 95px;
+}
+
+.form-register {
+  padding-top: 25px;
+  padding-bottom: 50px;
+  margin-right: 95px;
+}
+
+.form-group {
+  padding-top: 20px;
+}
+
+.signGoogle {
+  background-color: #0d28a6;
+  margin-top: 0;
+}
+
+.signIn {
+  background-color: #5cb85f;
+  margin-top: 40px;
+}
+
+.signIn:hover {
+  background-color: #5cb85f;
+  margin-top: 40px;
+}
+
+.labelLogin {
+  margin-bottom: 5px;
+}
+
+.sign-up {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.imgLogin {
+  margin-top: 110px;
+}
+
+.imgRegister {
+  margin-top: 90px;
+}

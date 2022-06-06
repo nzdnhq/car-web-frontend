@@ -1,0 +1,117 @@
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+/* CSS */
+.App {
+    font-family: Helvetica !important;
+    scroll-behavior: smooth;
+}
+h2 {
+    font-size: 24px !important;
+    font-weight: bold !important;
+}
+.bg-aliceblue {
+    background-color: #f1f3ff;
+}
+.bg-button {
+    background-color: #5cb85f !important;
+}
+.bg-button:hover {
+    background-color: #3e7e40 !important;
+}
+.bg-primary-darkblue {
+    background-color: #0d28a6;
+}
+.our-service-checklist {
+    width: 24px;
+    height: 24px;
+}
+.why-us-icon {
+    width: 32px;
+    height: 32px;
+}
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+}
+.testimonial-rating {
+    max-height: 16px;
+}
+.testimonial-name {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    line-height: 0px;
+}
+.testimonial-media {
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+}
+.testimonial-media:hover {
+    background-color: #04aa6d;
+    color: white;
+}
+.footer-link {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+}
+.footer-social {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.footer-logo {
+    width: 55%;
+}
+.cars-box-search {
+    border-radius: 5px;
+    box-shadow: 0 1px 8px 0px #000000;
+    font-size: 12px;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+}
+@media screen and (max-width: 1400px) {
+    .cars-box-search {
+        width: 85%;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .cars-box-search {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .inputTime,
+    .inputDate {
+        width: 160px;
+    }
+    .inputPassanger,
+    .inputDriver {
+        width: 180px;
+    }
+}
+
